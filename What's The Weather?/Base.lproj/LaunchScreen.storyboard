@@ -19,8 +19,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Oqi-G9-TNV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="981"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHm-gT-bni">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHm-gT-bni">
                                 <rect key="frame" x="100" y="757" width="215" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="1yY-ag-ZMQ"/>
+                                </constraints>
                                 <string key="text">Designed by
 @TonySudakov</string>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
@@ -42,6 +45,8 @@
                         <constraints>
                             <constraint firstItem="hW4-59-11P" firstAttribute="centerY" secondItem="Oqi-G9-TNV" secondAttribute="centerY" id="2gd-ho-Ljs"/>
                             <constraint firstItem="hW4-59-11P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="7aO-x6-Du5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZHm-gT-bni" secondAttribute="bottom" constant="56" id="FYL-xc-Wgr"/>
+                            <constraint firstItem="ZHm-gT-bni" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Qxb-j9-cxU"/>
                             <constraint firstItem="hW4-59-11P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="373" id="Yy1-GD-I8c"/>
                             <constraint firstItem="hW4-59-11P" firstAttribute="centerX" secondItem="ZHm-gT-bni" secondAttribute="centerX" id="gCX-wf-1oh"/>
                             <constraint firstItem="hW4-59-11P" firstAttribute="centerX" secondItem="Oqi-G9-TNV" secondAttribute="centerX" id="kCW-9n-wqY"/>

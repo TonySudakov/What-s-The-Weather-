@@ -7,11 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBAction func locationButton(_ sender: UIButton) {
+    }
+    @IBAction func searchButton(_ sender: UIButton) {
+        print(searchCityField.text!)
+    }
+    @IBOutlet weak var cityName: UILabel!
+    @IBOutlet weak var degreesLabel: UILabel!
+    @IBOutlet weak var conditionImageView: UIImageView!
+    @IBOutlet weak var conditionLabel: UILabel!
+    @IBOutlet weak var searchCityField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        searchCityField.delegate = self
     }
 
 
