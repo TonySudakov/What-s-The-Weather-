@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="-6" width="375" height="900"/>
                                 <color key="tintColor" red="0.051029227670000003" green="0.032929692419999997" blue="0.11586806920000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <textField opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a City!" textAlignment="right" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1wR-tf-CQz">
+                            <textField opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a City!" textAlignment="right" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1wR-tf-CQz">
                                 <rect key="frame" x="55" y="64" width="265" height="35"/>
                                 <color key="tintColor" name="Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -44,19 +44,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="HhH-I0-6at">
-                                <rect key="frame" x="105.33333333333333" y="146" width="244.66666666666669" height="119.66666666666669"/>
+                                <rect key="frame" x="94.666666666666671" y="146" width="255.33333333333331" height="119.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJH-DC-inY">
-                                        <rect key="frame" x="0.0" y="0.0" width="117.33333333333333" height="119.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="119.66666666666667"/>
                                         <color key="tintColor" name="Color"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="100"/>
                                         <color key="textColor" name="Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°C" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EE2-4Y-98r">
-                                        <rect key="frame" x="137.33333333333331" y="0.0" width="107.33333333333331" height="119.66666666666667"/>
+                                        <rect key="frame" x="142.66666666666669" y="0.0" width="112.66666666666669" height="119.66666666666667"/>
                                         <color key="tintColor" name="Color"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="100"/>
                                         <color key="textColor" name="Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
